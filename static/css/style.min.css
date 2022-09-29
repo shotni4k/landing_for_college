@@ -1,0 +1,166 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  font-family: inherit;
+}
+
+.body {
+  height: 100%;
+  line-height: 1;
+  font-size: 16px;
+  font-weight: 500;
+  color: "#fff";
+}
+
+.wraper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+._conteiner {
+  max-width: 1024px;
+  margin: 0px auto;
+  padding: 0 15px;
+  box-sizing: content-box;
+}
+
+.page {
+  flex: 1 1 auto;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 50;
+}
+
+.header__conteiner {
+  display: flex;
+  min-height: 104px;
+  align-items: center;
+}
+
+.header__logo {
+  margin-left: 20px;
+  color: inherit;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 34px;
+}
+
+.header__menu {
+  margin: 0px 0px 0px 134px;
+}
+
+.menu {
+  padding: 0px 8px;
+}
+
+.menu__list {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.menu__item:not(:last-child) {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.menu__link {
+  color: inherit;
+  font-size: 17px;
+  line-height: 171%;
+  font-weight: 600;
+}
+
+@media (max-width: 992px) {
+  .header__menu {
+    margin: 0px 0px 0px 80px;
+    font-size: 30px;
+  }
+}
+@media (max-width: 764px) {
+  .header__menu {
+    margin: 0px 0px 0px 40px;
+    font-size: 40px;
+  }
+}
+@media (max-width: 479px) {
+  .header__menu {
+    margin: 0px 0px 0px 20px;
+    font-size: 50px;
+  }
+}
+.main__block {
+  position: relative;
+}
+
+.main__block-body {
+  display: flex;
+  padding: 183px 0px 0px 0px;
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+}
+
+.main__block-body > *:not(:last-child) {
+  margin: 0px 0px 35px 0px;
+}

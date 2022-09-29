@@ -1,0 +1,37 @@
+$color_text: "#333";
+$color_titile: "#333";
+$font: 'Open Sans', sans-serif;
+
+$font_sub-title: 'Open Sans', italic;
+
+$color_text-intro: "#fff";
+$color_title-intro:"#fff";
+$title_font: 'Montserrat', sans-serif;
+
+$breakpoint_descktop:992px;
+$breakpoint_laptop:764px;
+$breakpoint_mobile:479px;
+
+.body{
+    height: 100%;
+    line-height: 1;
+    font-size:  16px;
+    font-weight:500;
+    color: $color_text-intro
+}
+
+.wraper{
+    min-height: 100%;
+    overflow: hidden;
+}
+
+._conteiner{
+    max-width: 1024px;
+    margin: 0px auto;
+    padding: 0 15px;
+    box-sizing: content-box
+}
+
+.page{
+    flex: 1 1 auto  ;
+}

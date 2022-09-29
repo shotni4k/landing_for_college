@@ -1,0 +1,18 @@
+@media (max-width: $breakpoint_descktop){
+.header__menu{
+    margin: 0px 0px 0px 80px;
+    font-size: 30px;
+    }
+}
+@media(max-width: $breakpoint_laptop){
+.header__menu{
+    margin: 0px 0px 0px 40px;
+    font-size: 40px;}
+}
+
+@media(max-width: $breakpoint_mobile){
+.header__menu{
+    margin: 0px 0px 0px 20px;
+    font-size: 50px;
+
+}}
